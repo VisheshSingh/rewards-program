@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+In order to simulate network request, I have added _json-server_ package. The following command can be used to run json server in a separate terminal:
+
+```
+json-server --watch src/data/transactions.json --port 4000
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
