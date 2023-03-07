@@ -7,7 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction, .points-tracker {
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid teal;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+
+ .points-tracker {
+  align-self: flex-start;
+  text-align: center;
+}
+
+.points-tracker span {
+  font-size: 1.5rem;
+}
+
+.total {
+  display: block;
+  font-size: 4rem;
 }
